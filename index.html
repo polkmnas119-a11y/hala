@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>جامعة الزهراء</title>
+  <style>
+    body{
+      margin:0;
+      font-family:'Tahoma', sans-serif;
+      background:#f4f6f9;
+      color:#222;
+      line-height:1.8;
+    }
+    header{
+      background:linear-gradient(to left,#1e3c72,#2a5298);
+      color:#fff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    header h1{font-size:48px;margin-bottom:10px;}
+    header p{font-size:20px;max-width:900px;margin:auto;}
+
+    nav{
+      background:#0f172a;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      padding:15px 20px;
+      font-weight:bold;
+    }
+    nav a:hover{background:#1e293b;}
+
+    section{
+      padding:60px 20px;
+      max-width:1200px;
+      margin:auto;
+    }
+    section h2{
+      font-size:36px;
+      color:#1e3c72;
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:16px;
+      padding:25px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom:30px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .faculty h3{color:#2a5298;margin-bottom:10px;}
+
+    .gallery img{
+      width:100%;
+      border-radius:14px;
+      box-shadow:0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    video{
+      width:100%;
+      border-radius:16px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    footer{
+      background:#0f172a;
+      color:#fff;
+      text-align:center;
+      padding:30px 15px;
+      margin-top:40px;
+    }
+
+    .highlight{
+      background:linear-gradient(to left,#e0f2fe,#f0f9ff);
+      border-right:6px solid #1e3c72;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>جامعة الزهراء</h1>
+  <p>مؤسسة تعليمية غير ربحية ذات نفع عام، تأسست عام 2014، تهدف إلى إعداد جيل أكاديمي متميز يجمع بين العلم، القيم الإسلامية، والحداثة.</p>
+</header>
+
+<nav>
+  <a href="#about">عن الجامعة</a>
+  <a href="#vision">الرؤية والرسالة</a>
+  <a href="#faculties">الكليات</a>
+  <a href="#gallery">الصور</a>
+  <a href="#videos">الفيديو</a>
+  <a href="#systems">أنظمة التعليم</a>
+</nav>
+
+<section id="about">
+  <h2>عن جامعة الزهراء</h2>
+  <div class="card highlight">
+    <p>
+      جامعة الزهراء هي جامعة خاصة غير ربحية، أُسست عام 2014، وتسعى إلى تقديم تعليم جامعي ودراسات عليا وفق أعلى المعايير الأكاديمية، مع الحفاظ على الهوية والقيم الإسلامية. تعمل الجامعة على إعداد كوادر علمية مؤهلة قادرة على خدمة المجتمع والمساهمة في التنمية الفكرية والعلمية.
+    </p>
+  </div>
+</section>
+
+<section id="vision">
+  <h2>الرؤية والرسالة</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>الرؤية</h3>
+      <p>أن تكون جامعة الزهراء منارة علمية رائدة محليًا وعالميًا في التعليم والبحث العلمي.</p>
+    </div>
+    <div class="card">
+      <h3>الرسالة</h3>
+      <p>إعداد طلاب وباحثين متميزين علميًا وأخلاقيًا، يجمعون بين المعرفة الأكاديمية والقيم الإسلامية المتوازنة.</p>
+    </div>
+  </div>
+</section>
+
+<section id="faculties">
+  <h2>الكليات والتخصصات</h2>
+  <div class="grid">
+
+    <div class="card faculty">
+      <h3>كلية الشريعة والدراسات الإسلامية</h3>
+      <p>تعنى بتدريس العلوم الشرعية والفقهية والفكر الإسلامي، وتهدف إلى تخريج علماء ومفكرين قادرين على الإفتاء، التعليم، والإرشاد الديني.</p>
+      <strong>الأهمية:</strong> تلبية حاجة المجتمع إلى كفاءات دينية واعية ومنفتحة على العصر.
+    </div>
+
+    <div class="card faculty">
+      <h3>كلية آيات للقرآن وعلومه</h3>
+      <p>تختص بتعليم علوم القرآن الكريم، التفسير، القراءات، وعلوم التجويد، مع منهج علمي أكاديمي.</p>
+      <strong>الأهمية:</strong> إعداد دعاة ومتخصصين في علوم القرآن لخدمة الأمة الإسلامية.
+    </div>
+
+    <div class="card faculty">
+      <h3>كلية التربية</h3>
+      <p>تُعِد معلمين ومربين يمتلكون الكفاءة العلمية والتربوية، مع التركيز على أساليب التعليم الحديثة.</p>
+      <strong>الأهمية:</strong> تطوير العملية التعليمية وبناء أجيال واعية ومثقفة.
+    </div>
+
+    <div class="card faculty">
+      <h3>كلية هندسة الحاسوب</h3>
+      <p>تركز على البرمجة، الشبكات، نظم المعلومات، والتقنيات الحديثة.</p>
+      <strong>الأهمية:</strong> إعداد مهندسين قادرين على المنافسة في سوق العمل التكنولوجي.
+    </div>
+
+    <div class="card faculty">
+      <h3>كلية اللغة العربية</h3>
+      <p>تهتم باللغة العربية وآدابها وعلومها، وتنمية المهارات اللغوية والبحثية.</p>
+      <strong>الأهمية:</strong> الحفاظ على اللغة العربية ونشرها أكاديميًا وثقافيًا.
+    </div>
+
+    <div class="card faculty">
+      <h3>كلية الاقتصاد والعلوم الإدارية والسياسية</h3>
+      <p>تُعنى بدراسة الاقتصاد، الإدارة، والعلوم السياسية.</p>
+      <strong>الأهمية:</strong> إعداد قادة إداريين واقتصاديين مؤهلين لإدارة المؤسسات الحديثة.
+    </div>
+
+    <div class="card faculty">
+      <h3>المعهد التقني الهندسي</h3>
+      <p>يركز على التعليم التطبيقي والمهارات التقنية الهندسية.</p>
+      <strong>الأهمية:</strong> ربط التعليم بسوق العمل واحتياجاته العملية.
+    </div>
+
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>معرض الصور</h2>
+  <div class="grid gallery">
+    <img src="WhatsApp Image 2025-12-30 at 8.36.23 PM.jpeg" alt="حرم الجامعة">
+    <img src="WhatsApp Image 2025-12-30 at 8.36.13 PM.jpeg" alt="قاعات المحاضرات">
+    <img src="WhatsApp Image 2025-12-30 at 8.36.21 PM copy.jpeg" alt="أنشطة طلابية">
+  </div>
+</section>
+
+<section id="videos">
+  <h2>فيديو تعريفي</h2>
+  <div class="card">
+    <video controls>
+      <source src="WhatsApp Video 2025-12-30 at 8.37.50 PM.mp4" type="video/mp4">
+      المتصفح لا يدعم تشغيل الفيديو
+    </video>
+  </div>
+</section>
+
+<section id="systems">
+  <h2>أنظمة التعليم والدراسة</h2>
+  <div class="card highlight">
+    <ul>
+      <li>يعتمد النظام الفصلي والساعات المعتمدة.</li>
+      <li>اللغة العربية هي اللغة الأساسية للتدريس.</li>
+      <li>تجمع المناهج بين التعليم الأكاديمي، القيم، والبحث العلمي.</li>
+      <li>تقدم برامج دراسات عليا (ماجستير ودكتوراه).</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 جامعة الزهراء – جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
